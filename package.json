@@ -3,17 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
-},
-"homepage": "https://edenab20-jpg.github.io/food-diary",
+  },
+  "homepage": "https://edenab20-jpg.github.io/food-diary",
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
     "lucide-react": "^1.20.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
