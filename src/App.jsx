@@ -211,7 +211,7 @@ function HomeScreen({ entries, setEntries, glasses, streak }) {
         method: "POST",
  headers: { 
   "Content-Type": "application/json", 
-  "x-api-key": "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",
+  "x-api-key": import.meta.env.VITE_ANTHROPIC_API_KEY,
   "anthropic-version": "2023-06-01",
   "anthropic-dangerous-direct-browser-access": "true"
 },
