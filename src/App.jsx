@@ -209,7 +209,12 @@ function HomeScreen({ entries, setEntries, glasses, streak }) {
     try {
       const response = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+ headers: { 
+  "Content-Type": "application/json", 
+  "x-api-key": "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",
+  "anthropic-version": "2023-06-01",
+  "anthropic-dangerous-direct-browser-access": "true"
+},
         body: JSON.stringify({
           model: "claude-sonnet-4-5",
           max_tokens: 1000,
