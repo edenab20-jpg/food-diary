@@ -216,7 +216,7 @@ function HomeScreen({ entries, setEntries, glasses, streak }) {
   "anthropic-dangerous-direct-browser-access": "true"
 },
         body: JSON.stringify({
-          model: "claude-sonnet-4-5",
+          model: "claude-sonnet-4-5-20241022",
           max_tokens: 1000,
           system: MENU_CONTEXT,
           messages: [{ role: "user", content: text }],
